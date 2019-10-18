@@ -208,7 +208,8 @@ PRODUCT_COPY_FILES += \
 
 # Iorapd
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.iorapd.enable=true
+    ro.iorapd.enable=true \
+    iorapd.perfetto.enable=true
 
 # IPACM
 PRODUCT_PACKAGES += \
