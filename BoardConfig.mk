@@ -16,8 +16,13 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
 # Display
 TARGET_SCREEN_DENSITY := 440
+
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
