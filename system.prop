@@ -4,3 +4,6 @@ audio.sys.offload.pstimeout.secs=3
 
 # NFC
 ro.se.type=HCE,UICC
+
+# OTA
+lineage.updater.uri=https://raw.githubusercontent.com/ginkgo-dev/ota/lineage-18.1/lineage_ginkgo.json
