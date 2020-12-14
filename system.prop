@@ -78,3 +78,6 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# OTA
+lineage.updater.uri=https://raw.githubusercontent.com/ginkgo-dev/ota/lineage-18.1/lineage_ginkgo.json
