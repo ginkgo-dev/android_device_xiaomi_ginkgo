@@ -1,0 +1,19 @@
+[
+    {
+        "repository":   "ginkgo-dev/android_kernel_xiaomi_ginkgo",
+        "target_path":  "kernel/xiaomi/ginkgo",
+        "remote":       "github",
+        "branch":       "lineage-18.1"
+    },
+    {
+        "repository":   "ginkgo-dev/android_vendor_xiaomi_ginkgo",
+        "target_path":  "vendor/xiaomi/ginkgo",
+        "remote":       "github",
+        "branch":       "lineage-18.1"
+    },
+    {
+        "repository":   "vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
+        "branch":       "r-a3"
+    }
+]
