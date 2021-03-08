@@ -23,22 +23,6 @@ on boot
     chown system system /sys/module/battery_saver/parameters/enabled
     chmod 0660 /sys/module/battery_saver/parameters/enabled
 
-    # KCAL
-    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_enable
-    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_enable
-    chown system system /sys/devices/platform/kcal_ctrl.0/kcal
-    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal
-    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_sat
-    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_sat
-    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_val
-    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_val
-    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_cont
-    chmod 0660 /sys/devices/platform/kcal_ctrl.0/kcal_cont
-
-    # Vibration
-    chown system system /sys/class/leds/vibrator/vtg_level
-    chmod 0660 /sys/class/leds/vibrator/vtg_level
-
     # Thermal Profile
     write /sys/class/thermal/thermal_message/sconfig 0
 

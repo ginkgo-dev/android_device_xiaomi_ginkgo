@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 ArrowOS
+ * Copyright (C) 2018 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,31 +14,20 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.display;
+package org.lineageos.settings.dirac;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.preference.PreferenceActivity;
 
-import org.lineageos.settings.R;
+public class DiracActivity extends PreferenceActivity {
 
-public class KcalSettingsActivity extends Activity {
-
-    private static final String TAG = "kcal_settings";
+    private static final String TAG_DIRAC = "dirac";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kcal);
-        getFragmentManager().beginTransaction().replace(R.id.fragment_kcal, new KcalSettingsFragment(), TAG).commit();
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        getFragmentManager().beginTransaction().replace(android.R.id.content,
+                new DiracSettingsFragment(), TAG_DIRAC).commit();
     }
 }
