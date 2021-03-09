@@ -10,10 +10,5 @@
         "target_path":  "vendor/xiaomi/ginkgo",
         "remote":       "github",
         "branch":       "lineage-18.1"
-    },
-    {
-        "repository":   "vendor_miuicamera",
-        "target_path":  "vendor/miuicamera",
-        "branch":       "r-a3"
     }
 ]
