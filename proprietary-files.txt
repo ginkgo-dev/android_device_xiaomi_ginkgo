@@ -2097,7 +2097,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|8c6bf670ebc1805c
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|a1962f890e8bce72bf0b4b275a1b4ff6e56ff8ec
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|5f02ff3e6aff36ca965860fcf05a9fef9b0034d3
 vendor/radio/qcril_database/qcril.db|7e9a9f2d58190f3b753cb5a2a857518c596ba9e2
-vendor/radio/qcril_database/upgrade/0_initial.sql|e00b243261d8941802bdea9d4e659dc5e927c216
+vendor/radio/qcril_database/upgrade/0_initial.sql|6254a30bbff179351075b12f2612a677c82e72fd
 vendor/radio/qcril_database/upgrade/1_version_intro.sql|67b96cb3e94737bfe271b2519b9eb5fae17373a2
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql|b4a825ba20fea3e2f20c7f02c8bd64596c24a75e
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc0868c48bba2f7542f5b4e68c9022
