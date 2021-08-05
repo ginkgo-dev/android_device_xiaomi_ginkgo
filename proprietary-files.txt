@@ -1,4 +1,4 @@
-# Device proprietary files - from ginkgo MIUI 21.7.12 China Beta package, unless pinned
+# Device proprietary files - from ginkgo MIUI 21.8.3 China Beta package, unless pinned
 
 # ADSP - from LA.UM.9.11.r1-03900-NICOBAR.0
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
