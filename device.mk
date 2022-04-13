@@ -21,10 +21,6 @@ PRODUCT_PACKAGES += \
     NotchBarKiller \
     WillowFrameworkRes
 
-# AID/fs configs
-PRODUCT_PACKAGES += \
-    fs_config_files
-
 # ANT+
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
